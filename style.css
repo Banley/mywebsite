@@ -9,3 +9,19 @@ h2#msg {
 	position: absolute;
 }
 
+#ttt {
+	background-color: white;
+	position: absolute;
+	left: 300px;
+	top: 170px;
+	width: 150px;
+	height: 150px;
+}
+.ttt-sq {
+	font-size: 30px;
+	text-align: center;
+	width: 45px;
+	border: 1px solid #999;
+	height: 45px;
+	float: left;
+}

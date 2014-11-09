@@ -23,3 +23,14 @@ function animate() {
 	document.getElementById("msg").style.left = x + "px";
 	document.getElementById("msg").style.transform = "scale(" + scale + ", " + scale + ")";
 }
+
+var nextOne = "X";
+
+var squares = document.getElementsByClassName("ttt-sq");
+for(var i=0; i<squares.length; i++) {
+	squares[i].addEventListener('click', function(evt) {
+		evt.target.textContent = nextOne;
+		if(nextOne === "X") nextOne = "O";
+		else nextOne = "X";
+	});
+}
